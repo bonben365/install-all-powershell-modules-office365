@@ -1,8 +1,5 @@
 
-# Add Windows Store into Windows LTSC
-a
-
-
+# Add
 
 ## Requirements
 
@@ -22,7 +19,7 @@ a
 Set-ExecutionPolicy Bypass -Scope Process -Force
 
 #Download and run the PowerShell script
-$url="https://raw.githubusercontent.com/bonben365/add-store-win-ltsc/main/add-store.ps1"
+$url='https://github.com/bonben365/install-all-powershell-modules-office365/raw/main/ExchangeOnline.ps1'
 iex ((New-Object System.Net.WebClient).DownloadString($url))
 ```
 ➡️Please inspect https://raw.githubusercontent.com/bonben365/add-store-win-ltsc/main/add-store.ps1 prior to running any of these scripts to ensure safety. We already know it's safe, but you should verify the security and contents of any script from the internet you are not familiar with.
